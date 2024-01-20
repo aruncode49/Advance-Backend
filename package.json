@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A fully advance backend series with node js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "keywords": [
     "javscript",
@@ -13,5 +15,8 @@
     "backend"
   ],
   "author": "Arun Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  }
 }
